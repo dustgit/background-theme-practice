@@ -1,24 +1,8 @@
 body {
   font-family: 'Varela Round', sans-serif;
 }
-
-h2.intro {
-  font-family: 'Pacifico', cursive;
-  color: #31448e;
-}
-p.intro {
+.intro {
+  color:#888;
   font-style: italic;
-  color:#999;
-}
-img.intro {
-  width: 30%;
-  float:right;
-}
-.float-left {
-  float:left;
-  width:65%;
-
-}
-#long-block {
- margin-top: 320px;
+  text-align:center;
 }
