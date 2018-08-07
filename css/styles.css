@@ -1,9 +1,7 @@
 body {
-  /* width: 1024px; */
   font-family: 'Varela Round', sans-serif;
-  /* margin: 0 auto; */
   font-size: 20px;
-
+  transition: background 300ms ease;
 }
 h2 {
   font-weight: bold;
@@ -23,26 +21,32 @@ h3 {
   box-shadow: 0px 0px 10px 1px #000;
 }
 
-.default-theme {
-  background-color: white;
+.body-default-theme {
+  background-color: #ddd;
   color: black;
 }
-
-.dark-theme {
-  background-color: purple;
+.intro-default-theme {
+  background-color: white;
+  color: black;
+  color:#666;
+  background-color: #ccc;
+}
+.body-dark-theme {
+  background-color: #333;
   color: white;
+}
+.intro-dark-theme {
+  background-color: #444;
+  color: #eee;
 }
 #button-area {
   width: 100%;
-  background-color: lightblue;
 }
 
 #intro {
-  color:#666;
-  background-color: #ccc;
+
   padding: 30px;
   margin-top: 100px;
-
 }
 #blurb {
   box-sizing: border-box;

@@ -2,12 +2,14 @@ $(document).ready(function(){
   console.log("ready")
   $('#button-default-theme').click(function(){
     $("body").removeClass();
-    $("body").addClass("default-theme");
-    console.log("clicked")
+    $("body").addClass("body-default-theme");
+    $("#intro").removeClass();
+    $("#intro").addClass("intro-default-theme");
   });
-
   $('#button-dark-theme').click(function(){
     $("body").removeClass();
-    $("body").addClass("dark-theme");
+    $("body").addClass("body-dark-theme");
+    $("#intro").removeClass();
+    $("#intro").addClass("intro-dark-theme");
   });
 });
